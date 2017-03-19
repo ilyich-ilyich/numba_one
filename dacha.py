@@ -38,7 +38,7 @@ def handle(msg):
     elif command=='/start':
         bot.sendMessage(chat_id,str('Hi! I am homebot!'))
         i=4
-bot=telepot.Bot('356276665:AAGaJ6ar6ZUgxDlhgMJ_yJbSxrEnFSM8YkQ')
+bot=telepot.Bot('156276665:AAGaJ6ar6ZUgxDlhgMJ_yJbSxrEnFSM8YkQ')
 bot.message_loop(handle)
 while 1:
     time.sleep(10)
